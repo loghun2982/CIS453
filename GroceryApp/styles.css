@@ -1,0 +1,102 @@
+nav {
+    overflow: hidden;
+    text-align: center;
+    height: 45px;
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 15%;
+
+}
+
+#checkout {
+    display: flex;
+    justify-content: flex-end;
+    padding-left: 200px;
+    font-size: 2em;
+}
+
+li {
+    font-size: 2.5em;
+    padding: 0 20px;
+    display: flex;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:link {
+    text-decoration: none;
+  }
+  
+  a:visited {
+    text-decoration: none;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+  }
+  
+  a:active {
+    text-decoration: underline;
+  }
+
+h1{
+    padding-bottom: 50px;
+}
+
+#formTitle {
+    font-size: 5.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40vh;
+}
+
+.produceForm {
+    padding: 10% 0% 0% 5%;
+    
+}
+
+.meatForm {
+    padding: 10% 0% 0% 5%;
+}
+
+.dairyForm {
+    padding: 10% 0% 0% 5%;
+}
+
+.seafoodForm {
+    padding: 10% 0% 0% 5%;
+}
+td {
+    font-size: 35px;
+}
+
+tr:nth-child(even) {
+    background-color: #b5def0;
+  }
+
+table {
+    border: solid;
+    border-collapse: separate;
+}
+
+td {
+    width: 200px; 
+    text-align: center;
+    padding: 10px;
+}
+
+#submitButton {
+    margin-top: 2%;
+    margin-left: 65%;
+}
+
